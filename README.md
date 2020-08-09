@@ -8,25 +8,26 @@
 
 ---
 
-- [Features](#features)
-- [Built-in shortcodes](#built-in-shortcodes)
-- [Code highlighting](#code-highlighting)
-- [How to start](#how-to-start)
-- [How to configure](#how-to-configure)
-- [Post archetype](#post-archetype)
-- [Add-ons](#add-ons)
-- [How to run your site](#how-to-run-your-site)
-- [How to edit the theme](#how-to-edit-the-theme)
-- [How to contribute](#how-to-contribute)
-- [Terminal theme user?](#terminal-theme-user)
-- [Sponsoring](#sponsoring)
-- [Licence](#licence)
+- [Terminal](#terminal)
+    - [DEMO - https://hugo-terminal.now.sh/](#demo---httpshugo-terminalnowsh)
+  - [Features](#features)
+      - [Built-in shortcodes](#built-in-shortcodes)
+    - [Removed prism.js to try to trim down page size a touch](#removed-prismjs-to-try-to-trim-down-page-size-a-touch)
+  - [How to start](#how-to-start)
+  - [How to configure](#how-to-configure)
+  - [Post archetype](#post-archetype)
+  - [Add-ons](#add-ons)
+  - [How to run your site](#how-to-run-your-site)
+  - [How to edit the theme](#how-to-edit-the-theme)
+  - [How to contribute](#how-to-contribute)
+  - [Terminal theme user?](#terminal-theme-user)
+  - [Sponsoring](#sponsoring)
+  - [License](#license)
 
 ## Features
 
 - **5 duetone themes**, depending on your preferences (orange is default, red, blue, green, pink)
 - [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice duotone**, custom syntax highlighting based on [**PrismJS**](https://prismjs.com)
 - fully responsive
 
 #### Built-in shortcodes
@@ -61,15 +62,7 @@
   {{< /code >}}
   ```
 
-#### Code highlighting
-
-A custom syntax highlighting based on PrismJS. All you need to do is to wrap you code like this:
-
-````
-```html
-  // your code here
-```
-````
+### Removed prism.js to try to trim down page size a touch
 
 **Supported languages**: bash/shell, css, clike, javascript, apacheconf, actionscript, applescript, c, csharp, cpp, coffeescript, ruby, csp, css-extras, diff, django, docker, elixir, elm, markup-templating, erlang, fsharp, flow, git, go, graphql, less, handlebars, haskell, http, java, json, kotlin, latex, markdown, makefile, objectivec, ocaml, perl, php, php-extras, r, sql, processing, scss, python, jsx, typescript, toml, reason, textile, rust, sass, stylus, scheme, pug, swift, yaml, haml, twig, tsx, vim, visual-basic, wasm.
 
